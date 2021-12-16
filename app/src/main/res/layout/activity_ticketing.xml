@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:background="#aaffffff"
+        >
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="영화예매 바로가기"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#ff333333"
+            />
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="ticketing1"
+            android:text="CGV"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="ticketing2"
+            android:text="롯데시네마"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="ticketing3"
+            android:text="씨네큐"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="ticketing4"
+            android:text="메가박스"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
