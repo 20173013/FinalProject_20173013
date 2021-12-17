@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".BoxOfficeActivity">
+    tools:context=".BoxOfficeActivity"
+    android:background="@drawable/back_drawable">
 
     <EditText
         android:id="@+id/xeditText"

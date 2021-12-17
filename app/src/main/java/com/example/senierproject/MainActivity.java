@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         Button main04Button = (Button) findViewById(R.id.main04Button);
         main04Button.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+                Intent intent = new Intent(getApplicationContext(), TicketingActivity.class);
                 intent.putExtra("titleMsg", "영화 예매하기");
 
                 startActivityForResult(intent, REQUEST_CODE_TiCKEKING);

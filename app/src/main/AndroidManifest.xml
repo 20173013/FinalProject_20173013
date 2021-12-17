@@ -24,6 +24,7 @@
         <activity android:name=".LoginActivity"/>
         <activity android:name=".BoxOfficeActivity"/>
         <activity android:name=".MapActivity"/>
+        <activity android:name=".TicketingActivity"/>
     </application>
 
 </manifest>
